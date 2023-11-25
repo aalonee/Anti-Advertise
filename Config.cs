@@ -25,6 +25,6 @@ namespace Plugin
         public string Kick_msg { get; set; } = "[ANTI AD] Please remove the ads from your nickname and restart the game.";
 
         [Description("Banned words")]
-        public List<string> ad { get; set; } = new List<string>() { ".com", ".su", ".net", ".ru", ".me", ".ovh", ".xyz", ".site", ".online", ".eu", ".ua", ".shop", ".рф", ".biz", ".tv", ".gg", ".io", ".uy", ".de", ".co", ".uk", ".at", ".kz", ".cz"};
+        public List<string> ad { get; set; } = new List<string>() { ".com", ".su", ".net", ".ru", ".me", ".ovh", ".xyz", ".site", ".online", ".eu", ".ua", ".shop", ".рф", ".biz", ".tv", ".gg", ".io", ".uy", ".de", ".co", ".uk", ".at", ".kz", ".cz", ".info", "#dangerzone", "#runiclibrary", "#bloodrust", ".int", ".edu", ".gov", ".mil", ".co" };
     }
 }
